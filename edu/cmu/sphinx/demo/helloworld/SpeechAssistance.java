@@ -254,7 +254,7 @@ public class SpeechAssistance extends javax.swing.JFrame {
         firstTime = true;
         //t.destroy();
         //t.start();
-        System.out.println("my app dev branch");
+        System.out.println("My Speech App");
         System.out.println("checkbox1 = " + jCheckBox1.isSelected());
         System.out.println("checkbox2=" + jCheckBox2.isSelected());
     }//GEN-LAST:event_jButton4ActionPerformed
@@ -279,7 +279,7 @@ public class SpeechAssistance extends javax.swing.JFrame {
                 RunCommand command=new RunCommand();
                 while (true) 
                 {
-                    jTextArea1.append("Start speaking. Press Ctrl-C to quit.\n");
+                    jTextArea1.append("Start speaking...\n");
                     // System.out.println("Start speaking. Press Ctrl-C to quit.\n");
 
                     Result result = recognizer.recognize();
